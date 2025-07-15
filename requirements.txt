@@ -1,0 +1,15 @@
+## Requirements
+ 
+dash
+dash-bootstrap-components
+plotly
+pandas
+numpy
+scikit-learn
+umap-learn
+geopandas
+matplotlib
+seaborn
+folium
+branca
+bokeh
