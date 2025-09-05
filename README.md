@@ -16,30 +16,35 @@ This is an interactive dashboard built using Dash (Plotly) to explore energy and
   - Per capita metrics and energy/emission intensities
 
 ## Project Files
-
-- `MEECC_V.1.py` – Main dashboard code
-- `Parent_sheet.xlsx` – Country-level input data
-- `Population.csv` – Population projections
-- `world-administrative-boundaries.shp` – Map boundaries for spatial data
+MEECC_V.1/
+├── MEECC_V.1.py # Main dashboard script
+├── requirements.txt # All Python package dependencies
+├── data/ # Folder for all input data
+│ ├── Parent_sheet.xlsx
+│ ├── Population.csv
+│ └── world-administrative-boundaries.shp (.shx, .dbf, etc.)
 
 ## How to Run
-
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/meecc-v1.git
-   cd meecc-v1
+   git clone https://github.com/your-username/MEECC_V.1_beta.git
+   cd MEECC_V.1_beta
 
-2. Install the required packages:
+2. Open a terminal in the folder
+3. Run these commands:
 
-   pip install -r requirements.txt
+```bash
+python -m venv env
+env\Scripts\activate         # Windows
+# or
+source env/bin/activate      # Mac/Linux
 
-3. Run the app in terminal window
-   
-   python MEECC_V.1.py
+pip install -r requirements.txt
+python MEECC_V.1_beta.py
 
-4. Open your browser and go to view the interactive dashboard
-
+4. Copy the URL from the terminal 
+5. Open your browser and paste the URL to view the interactive dashboard
 
 ## Licence
 
