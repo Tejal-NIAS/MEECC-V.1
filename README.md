@@ -117,7 +117,7 @@ HOW TO RUN (Mac/Linux)
 
 1. Open the Terminal
 2. Navigate to the project folder:
-       cd ~/Downloads/MEECC     # Update with your folder path
+       cd ~/Downloads/MEECC-V.1     # Update with your folder path
 
 3. Create a virtual environment:
        python3 -m venv env
@@ -138,6 +138,7 @@ HOW TO RUN (Mac/Linux)
 Required Python Packages
 ------------------------
 See requirements.txt for exact versions.
+
 
 
 
