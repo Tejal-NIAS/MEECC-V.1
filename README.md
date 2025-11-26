@@ -62,24 +62,19 @@ Alternative: Run from Terminal (for advanced users)
 
 1. Open a terminal (Command Prompt or PowerShell)
 2. Navigate to the project folder:
-
-     ```cd path\to\your\project```
+     cd path\to\your\project
 
 4. Create a virtual environment (if not already created):
-
-     ```python -m venv env```
+      python -m venv env  
 
 6. Activate the environment:
-
-     ```env\Scripts\activate```
+      env\Scripts\activate
 
 8. Install dependencies:
-
-    ```pip install -r requirements.txt```
+      pip install -r requirements.txt
 
 10. Run the dashboard:
-
-    ```python MEECC_V.1_revision.py```
+      python MEECC_V.1_revision.py
 
 The dashboard will open in your browser automatically.
 
@@ -143,6 +138,7 @@ HOW TO RUN (Mac/Linux)
 Required Python Packages
 ------------------------
 See requirements.txt for exact versions.
+
 
 
 
