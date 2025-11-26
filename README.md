@@ -18,16 +18,7 @@ This is an interactive dashboard built using Dash (Plotly) to explore energy and
   - Per capita metrics and energy/emission intensities
 
 ## Project Files
-MEECC-V.1/
-1. MEECC_V.1_revision.py # Main dashboard script
-2. requirements.txt # All Python package dependencies
-3. run.sh
-4. run_dashboard.bat
-5. LICENSE.txt
-6. README.md
-7. data/ # Folder for all input data
-│ ├── Parent_sheet.xlsx
-│ ├── Population.csv
+MEECC-V.1/ ├── MEECC_V.1_revision.py # Main dashboard script ├── requirements.txt # All Python package dependencies ├── run.sh # Shell script to launch app (Linux/Mac) ├── run_dashboard.bat # Batch file to launch app (Windows) ├── LICENSE.txt # License (CC BY) ├── README.md # This file └── data/ # Folder containing all input data ├── Parent_sheet.xlsx └── Population.csv
 
 HOW TO RUN (Windows)
 ---------------------
@@ -136,4 +127,5 @@ HOW TO RUN (Mac/Linux)
 Required Python Packages
 ------------------------
 See requirements.txt for exact versions.
+
 
